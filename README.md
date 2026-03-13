@@ -68,6 +68,9 @@ This project and everyone participating in it are governed by the [Contributor C
     <tr>
       <td align="center"><a href="https://github.com/VishMaster17"><img src="https://avatars.githubusercontent.com/u/74035077?v=4?s=100" width="100px;" alt="VishMaster17"/><br /><sub><b>VishMaster17</b></sub></a><br /><a href="https://github.com/mpotane/PythonScriptPH/commits?author=VishMaster17" title="Documentation">📖</a></td>
     </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/Itzudii"><img src="https://avatars.githubusercontent.com/u/145835542?v=4" width="100px;" alt="Itzudii"/><br /><sub><b>Itzudii</b></sub></a><br /><a href="https://github.com/mpotane/PythonScriptPH/commits?author=Itzudii" title="Documentation">📖</a></td>
+    </tr>
   </tbody>
 </table>
 
