@@ -1,15 +1,14 @@
-
 from typing import Tuple,List
 
-def selectionsort(a:List[int],size:int)->Tuple[list[int],int]:
+def insertionsort(a:list,size:int) -> Tuple[List[int],int]:
     step = 0
-    for i in range(size):
-        small = i
-        for j in range(i,size):  
-            if a[j] < a[small]:
-                small = j
-            step+=1
-        a[i],a[small] = a[small],a[i]
+    for i in range(1, size):
+        key = a[i]
+        j = i - 1
+        while j >= 0 and a[j] > key:     
+            a[j + 1] = a[j]
+            j -= 1
+        a[j + 1] = key
     return a,step
 
     
@@ -20,7 +19,7 @@ if __name__ == '__main__':
     size = len(a)
     import time as t
     t0 = t.time()
-    sorted_array,steps = selectionsort(a,size)
+    sorted_array,steps = insertionsort(a,size)
     t1 = t.time()
     print("Sorted array:", sorted_array)
     print("Total comparisons:", steps)
